@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d3282ad-6505-444d-936a-d6d5509118ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiplebrowsers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AccountRegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_001_AccountRegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MxKnd1dgsk9683NEt52I9lKaNv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ruehlein/git/openCart/src/test/java/pageObjects"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\pageObjects" />
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\resources" />
+      <recent name="C:\Users\ruehlein\git\openCart" />
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\utilities" />
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\testCases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/ruehlein/git/openCart/testng.xml">
+    <configuration name="C:/Users/ruehlein/git/openCart/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="openCart" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001AccountRegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationPracticeSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC001AccountRegistrationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001AccountRegistrationTest.testAccountRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationPracticeSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC001AccountRegistrationTest" />
+      <option name="METHOD_NAME" value="testAccountRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001AccountRegistrationTest.test_account_Registration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="openCart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC001AccountRegistrationTest" />
+      <option name="METHOD_NAME" value="test_account_Registration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/ruehlein/git/openCart/testng.xml" />
+        <item itemvalue="TestNG.TC001AccountRegistrationTest.testAccountRegistration" />
+        <item itemvalue="TestNG.TC001AccountRegistrationTest" />
+        <item itemvalue="TestNG.TC001AccountRegistrationTest.test_account_Registration" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d3282ad-6505-444d-936a-d6d5509118ef" name="Changes" comment="" />
+      <created>1678703963234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678703963234</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/AccountRegistration.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/Home.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/Home.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testBase/BaseClass.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testBase/BaseClass.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
