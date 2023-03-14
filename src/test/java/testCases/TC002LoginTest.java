@@ -8,40 +8,45 @@ import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
-public class TC002LoginTest extends BaseClass {
-    @Test
-    public void test_Login() {
-        logger.info("Starting TC002LoginTest");
+public class TC002LoginTest extends BaseClass
+{
+	@Test(groups= {"Sanity","Master"}) //Step8 groups added
+	public void test_Login()
+	{
+		logger.info("Starting TC002LoginTest");
+		
+		try
+		{				
+			HomePage hp=new HomePage(driver);
+			
+			hp.clickMyAccount();
+						
+			hp.clickLogin();
+			
+			LoginPage lp=new LoginPage(driver);
+			
+			lp.setEmail(rb.getString("email")); // valid email, get it from properties file
+			
+			lp.setPassword(rb.getString("password")); // valid password, get it from properties file
+			
+			lp.clickLogin();
+			
+			MyAccountPage macc=new MyAccountPage(driver);
+			
+			boolean targetpage=macc.isMyAccountPageExists();
 
-        try {
-            HomePage hp = new HomePage(driver);
-
-            hp.clickMyAccount();
-
-            hp.clickLogin();
-
-            LoginPage lp = new LoginPage(driver);
-
-            lp.setEmail(rb.getString("email")); // valid email, get it from properties file
-
-            lp.setPassword(rb.getString("password")); // valid password, get it from properties file
-
-            lp.clickLogin();
-
-            MyAccountPage macc = new MyAccountPage(driver);
-
-            boolean targetpage = macc.isMyAccountPageExists();
-
-            Assert.assertTrue(targetpage);
-
-        } catch (Exception e) {
-            Assert.fail();
-        }
-        logger.info(" Finished TC002LoginTest");
-
-    }
-
-
+			Assert.assertTrue(targetpage);
+			
+		}	
+		catch(Exception e)
+		{
+			Assert.fail();
+		}
+		logger.info(" Finished TC002LoginTest");
+		
+	}
+	
+	
 }
 
 

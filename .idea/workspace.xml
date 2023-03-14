@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d3282ad-6505-444d-936a-d6d5509118ef" name="Changes" comment="Add logs, cross browser, properties file, ExtentReport" />
+    <list default="true" id="4d3282ad-6505-444d-936a-d6d5509118ef" name="Changes" comment="Login Test, Data Driven">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,16 +38,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ruehlein/git/openCart/src/test/java/pageObjects"
+    "last_opened_file_path": "C:/Users/ruehlein/git/openCart"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\pageObjects" />
-      <recent name="C:\Users\ruehlein\git\openCart\src\test\resources" />
       <recent name="C:\Users\ruehlein\git\openCart" />
       <recent name="C:\Users\ruehlein\git\openCart\src\test\java\utilities" />
+      <recent name="C:\Users\ruehlein\git\openCart\testData" />
       <recent name="C:\Users\ruehlein\git\openCart\src\test\java\testCases" />
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\pageObjects" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/ruehlein/git/openCart/testng.xml">
@@ -112,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_002_LoginTest.test_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC002LoginTest.test_Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="openCart" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +123,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TC_002_LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC002LoginTest" />
       <option name="METHOD_NAME" value="test_Login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -133,7 +135,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/ruehlein/git/openCart/testng.xml" />
-        <item itemvalue="TestNG.TC_002_LoginTest.test_Login" />
+        <item itemvalue="TestNG.TC002LoginTest.test_Login" />
         <item itemvalue="TestNG.TC001AccountRegistrationTest.testAccountRegistration" />
         <item itemvalue="TestNG.TC001AccountRegistrationTest" />
         <item itemvalue="TestNG.TC001AccountRegistrationTest.test_account_Registration" />
@@ -163,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678790230776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login Test, Data Driven">
+      <created>1678804187683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678804187683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add logs, cross browser, properties file, ExtentReport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add logs, cross browser, properties file, ExtentReport" />
+    <MESSAGE value="Login Test, Data Driven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Test, Data Driven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

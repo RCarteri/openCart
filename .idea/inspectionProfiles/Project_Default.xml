@@ -4,5 +4,16 @@
     <inspection_tool class="CatchMayIgnoreException" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Tests" level="WARNING" enabled="false" />
     </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="Master" />
+            <item index="1" class="java.lang.String" itemvalue="Regression" />
+            <item index="2" class="java.lang.String" itemvalue="Sanity" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
   </profile>
 </component>
