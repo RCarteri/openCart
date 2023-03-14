@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d3282ad-6505-444d-936a-d6d5509118ef" name="Changes" comment="Login Test, Data Driven">
+    <list default="true" id="4d3282ad-6505-444d-936a-d6d5509118ef" name="Changes" comment="Grouping">
+      <change afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +45,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ruehlein\git\openCart" />
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\testCases" />
+      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\testBase" />
       <recent name="C:\Users\ruehlein\git\openCart\src\test\java\utilities" />
       <recent name="C:\Users\ruehlein\git\openCart\testData" />
-      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\testCases" />
-      <recent name="C:\Users\ruehlein\git\openCart\src\test\java\pageObjects" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/ruehlein/git/openCart/testng.xml">
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678804187683</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Grouping">
+      <created>1678806204391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678806204391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add logs, cross browser, properties file, ExtentReport" />
     <MESSAGE value="Login Test, Data Driven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Test, Data Driven" />
+    <MESSAGE value="Grouping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grouping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,16 +217,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/Home.java</url>
           <line>19</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testBase/BaseClass.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testBase/BaseClass.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
